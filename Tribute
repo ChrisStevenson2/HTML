@@ -1,89 +1,182 @@
-<html>
-<style>
-body { 
-        background-color: #D19F7E;
-}
-        h1 {font-family: 'Lobster', Times New roman;
-          background-color: #906145;
-}
-        h5 {font-family: 'Lobster', Times New roman;
-          background-color: #502922;
-          color: #FFFFFF;
-}
-#img-div { 
-        height: 50%;
-        width: 50%;
-        }
- 
-</style>
 
+<!doctype html>
+
+<!-- CSS Section -->
+<style>
+
+body { 
+
+        background-color: #D19F7E;
+
+}
+
+        h1 {font-family: 'Lobster', Times New roman;
+
+          background-color: #906145;
+
+}
+
+        h5 {font-family: 'Lobster', Times New roman;
+
+          background-color: #502922;
+
+          color: #FFFFFF;
+
+}
+#title{
+		text-center: h1;
+		}
+#img-div { 
+
+        
+		
+		height: 50%;
+
+        width: 50%;
+
+		
+        }
+
+ 
+
+</style>
+<!-- End of CSS Section -->
+<!-- Start of Main part of page -->
 <main>
-  <!-- adding Lobster font to page from outside source -->
+<!-- adding Lobster font to page from outside source -->
+
   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
 <!-- adding Tribute header - title and quote -->
+
   <div class="text-center" id="Tribute">
+
             <h1 id="title">Tribute to Coffee</h1>
-<h5>"Coffee - The favorite drink of the civilized world. - Thomas Jefferson"</h5>
+
+<h5 id="quote"><center>"Coffee - The favorite drink of the civilized world. - Thomas Jefferson"</center></h5>
+
   </div>
+
   <!-- adding coffee image to page  -->    
+
 <div class="text-center" id="img-div"><center><img src="
+
 http://res.freestockphotos.biz/pictures/10/10641-a-cup-of-coffee-on-a-bean-background-pv.jpg" alt:"Cup of Coffee on Coffee beans" </center> 
+
 </div>
+
   <!-- adding Tribute paragraphs - Story on alternate coffee origin -->
+
 <div>
+
   <br>
+
   <p>
-  Coffee has been around since an Ethiopean goat farmer discovered it in the 6th century. 
+
+  <center>Coffee has been around since an Ethiopean goat farmer discovered it in the 6th century.</center> 
+
     <br>
+
     <br>
+
     <br><h3 id="Tribute Info"><center>My Take on how coffee was 'really' discovered</center></h3>
+
   <br>
+
   <br>
+
   <br>Here is my take on how Coffee was <b>really</b> discovered.
+
   <br>There once was a farmer out tending to his goat herd. One day in a new field he noticed that his goats were behaving differently. They were eating some plants that had red cherry-like berries on them and after a bit were running and jumping about.
-  <br>This highly religious farmer was trying to figure out what made his goats so energetic, it was as if they were possesed of evil spirits or some such frightening thing, whenever they ate this certain plant, especially when these 'red' berries were growing on it. So, He took part of the plant, the leaves and berries, probably a whole branch, maybe even a whole plant, that the goats had eaten from to some monks at the nearby monastery. 
-  <br>These monks decided to try some experiments (being logical and studious monks) on a herd of goats, to see if said plant was indeed possesed of evil spirits and how to get them (evil spirits) out of the plants. 
-  <br>They fed some of the berries and leaves to a  goat that was around the monastery. And, yes this goat did become more energetic when he ate them, jumping and running about. Confirming the goat herders statement.
-  <br>Then they prayed over th plant and berries, sprinkledsome of them with holy water, thinking that if they prayed to their deity and poured holy water on them that they would be cleared of the demons inside. They then fed them to another goat, different from the first, and observed the results. This one too began to act more energetically.
-  <br>They threw some into the fire and roasted them, to exorcise the "demons" by burning them up with fire. The outer cherry shrivelled and was consumed by the fire, but, the inner beans survived the fire-roasting.  The smell the roasted bean put off was intoxicating (one tired-looking junior monk was overheard to say "Those devil beans smell really good, it must be a sin!, the devil's work for sure!", as he crossed and re-crossed himself, quickly leaving the room lest he succumb to the aroma and want to try to eat one). The monks were even determined to expel the "demons" from the beans that remained amongst the ashes. 
-  <br> They then tested some of these burned beans to see if yet another goat would behave differently; Alas, no! the goat too began to jump and run about as if it too was possesed of some unearthly energy.
-  <br>They then pulverized and ground up these burned beans, determined for sure that this would 'expel and demonic influence that remained'. 
-  <br>Again, they fed some of the now ground up beans to another of the "test" goats. This goats seemed to be even more energetic. By smashing and breaking up the burned (roasted) bean within the cherry-like fruit, it had amplified the effect. in fact, it was making the goat run and jump more than the other goats that had been tested. Observations were that these goats who had been fed the various types of bean from the plant had had similar results, extra energy, running about,bleating, and "coughing" alot.
+
+  <br>This highly religious and very superstitious farmer was trying to figure out what made his goats behave so energetically, it was as if they were possesed of evil spirits or some such frightening thing. He observed that whenever they ate of this certain plant, a plant with green leaves and small bright 'red' berries, they began to behave differently after consuming some of the plant. So, He took part of the plant, the leaves and berries, thinking that probably a whole branch might be enough. Giving it some more thought though, he decided to throw a whole plant into his cart and trundle it off to the local monks at the nearby monastery so that they could help him figure out what was happening. 
+
+  <br>These monks decided to try some experiments (being of the sort of monks who were logical and studious monks) on a herd of goats, to see if said plant was indeed possesed of evil spirits and how to get the (evil spirits) out of the plants. 
+
+  <br>They fed some of the berries and leaves to a goat that was around the monastery. And, yes this goat did become more energetic when he ate them, jumping and running about. Confirming the goat herders statement and elevating their suspicions.
+
+  <br>Then they prayed over the plant and berries, sprinkled some of the branch and berries with holy water, thinking that if they prayed to their deities and poured holy water on the plant that it would be cleared of the demons trapped inside. They then fed this to another goat, different from the first, and observed the results. This one too began to act more energetically.
+
+  <br>They threw some into the fire and roasted them, to exorcise the "demons" by burning them up with fire. The outer cherry shrivelled and was consumed by the fire, but, the inner beans survived the fire-roasting.  The smell the roasted bean put off was intoxicating (one tired-looking junior monk was overheard to say "Those devil beans smell really good, it must be a sin!, the devil's work for sure!", as he crossed and re-crossed himself, quickly leaving the room lest he succumb to the aroma and want to try to eat one himself). The monks were even more determined to expel the "demons" from the beans that remained amongst the ashes. 
+
+  <br> They then tested some of these burned beans to see if another goat would behave differently; Alas, no! the goat too began to jump and run about as if it too was possesed of some unearthly energy. Bleating and coughing as he ran about the courtyard.
+
+  <br>They then pulverized and ground some of the burned beans, determined for sure that this would 'expel and demonic influence that remained' by breaking the beans up into small tiny pieces. 
+
+  <br>Again, they fed some of the now ground up beans to another of the "test" goats. This goat seemed to be even more energetic than the others that had been tested. The running theory between the monks was that 'By smashing and breaking up the burned (roasted) bean within the cherry-like fruit, it had amplified the effect'. In fact, it was making the goat run and jump more than the other goats that had been tested. Observations were that these goats who had been fed the various types of bean from the plant had had similar results, extra energy, running about as if crazed, bleating, and "coughing" alot.
+
   <br>Maybe, thought one of the monks, they would expel the demons trapped inside if they were drowned in water.
+
   <br>They tried mixing the ground up bean with cold water, again tests were performed, resulting again, yes, still very energetic goat behavior. 
+
   <br>They tried warm, and then "hot" water (thinking, that this for sure would do it.)
+
   <br>Nothing worked, the devil plant seemed impervious to their attempts to "expel the demon inside".
+
   <br>"Perhaps it's not the plant but the combination of the plant and the goats that makes them do what they were doing?", suggested Friar Francisco. 
-  <br>One of the senior monks was summoned, the most pious of the lot, and directed to sample the "devil plant". Surely, he would be able to withstand the effects of this 'possessed' plant. 
+
+  <br>One of the senior monks was summoned, he had been up in his office meditating. He was considered the most pious of the lot, and the other monks directed him to sample the "devil plant". Surely, he would be able to withstand the effects of this 'possessed' plant. 
+
   <br>After first blessing the monk with holy water and saying a few prayers to the deities, the senior monk was ready to begin.
-  <br>He first sampled the bean as a whole raw and unroasted cherry. 'blech!, it was edible, but tasted bitter', he quipped as he coughed. Waiting a few minutes to see if there was any result, he did notice he was a little bit more alert, perhaps the plant has some curative powers, he thought. He didn't feel any evil tendencies.
-  <br>Then he sampled the burned roasted bean and it was less bitter, even pleasant. Coughing, he observed that it was a bit chalky to the taste, but he could see that the roasted bean was definitely better tasting than the raw uncooked one. Also, his energy level did seem to be a bit higher than before.
-  <br>Taking the ground beans in a wooden spoon he again sampled it, and didnt encounter any sinful thoughs, just more alertness and clarity.
-  <br>Taking some of the ground beans he put them into three fresh bowls, and added cold sring water, room temperature water, and hot boiling water. Letting the ground beans soak he waited a few minutes. 
-  <br>Tasting the cold one he noted that it was a bit watery and the ground beans had just settled to the bottom of the bowl. No real noticable change in the water was observed, minimal energy was observed.
-  <br>Moving on to the room temperature one, he noticed a slight change in the water, and upon tasting he did notice a faint taste was there similar to the ground bean by itself.
-  <br> Finally, he sipped the hot water and ground bean mixture. It tasted very good. No ill effects had been observed throughout the testing. He didn't feel any different about his faith. 
-  <br>Being the studious and thorough monk that he was, he had documented his observations very carefully. Eaten raw, roasted, and ground had no ill effects other than the "coughing fits". The benefits were obvious, increased mental alertness and a noticable reduction in fatigue.
-  <br>He decided to name the plant and bean "Coffee" because of the coughing fits he observed. And, after testing over a few weeks on other monks and goats, and seeing improvement in their studies and activities. None of which, contributed to bad behavior, he decided that this was a safe and healthy addition to their food source. 
-  <br>      
+
+  <br>He first sampled the bean as a whole raw and unroasted cherry. 'Blech!, it was edible, but tasted bitter', he quipped as he coughed. Waiting a few minutes to see if there was any result, he did notice he was a little bit more alert, perhaps the plant has some curative powers, he thought. He didn't feel any evil tendencies, so, maybe this notion that there were trapped demons inside was in question.
+
+  <br>Then he sampled a burned roasted bean and it was less bitter, even pleasant to the taste. Coughing a bit, he observed that it was a bit chalky to the taste, but he could see that the roasted bean was definitely better tasting than the raw uncooked one. Also, his energy level did seem to be a bit higher than before.
+
+  <br>Taking some of the ground burned beans, he put them in a spoon and again sampled it. No sinful thoughs, just more alertness and clarity, quite a bit more actually.
+
+  <br>Taking some of the ground burned beans, he put them into three fresh bowls, and added cold spring water, room temperature water, and hot boiling water. Letting the ground beans soak he waited a few minutes. 
+
+  <br>Tasting the cold one he noted that it was a bit watery and the ground beans had just settled to the bottom of the bowl. No real noticable change in the water was observed, minimal energy gain was observed.
+
+  <br>Moving on to the room temperature one, he noticed a slight change of color in the water, and upon tasting he did notice a faint taste was there similar to the ground bean by itself.
+
+  <br>Finally, he sipped the hot water and ground bean mixture, determined not to burn his lips and tongue. It tasted very good. Providing him with extra energy and clarity. No ill effects had been observed throughout any of the testing. He didn't feel any differently about his faith. there were no demons in this wonderful bean. 
+
+  <br>Being the studious and thorough monk that he was, he had documented his observations very carefully as he had tested the plant. Eaten raw, roasted, and ground had no ill effects other than the "coughing fits". The benefits were obvious, increased mental alertness and a noticable reduction in fatigue.
+
+  <br>He decided to name the plant and bean "Coffee" because of the coughing fits he observed firsthand. And, after extensive testing over a few weeks on other monks and goats, and seeing improvement in their studies and activities. None of which, contributed to bad behavior, he decided that this was a safe and healthy addition to their food source. 
+
+  <br>It's possible that coffee may have been discovered this way, or, the goat farmer might have performed the tests himself. Especially after seeing his goats eat them. The thought process might have been, well, the goats didn't get sick or die from eating them, so, neither should I. And, besides, if they were getting more energetic, I could surely benefit from that.      
+
   <br>  
+
   <br>
-  <p>Coffee has only grown in popularity and commerce since its founding even overcoming brief bans in history. Now it has grown into a multi-billion dollar industry. Coffee drinks span the range: from drip, pour-over, fresh brewed, espresso, to specialty drinks both hot and cold - the world has become quite enamored with the substance.
+
+  <p>Coffee has only grown in popularity and commerce since its founding even overcoming brief bans in history. Now it has grown into a multi-billion dollar industry. Coffee drinks span the range: from drip, pour-over, fresh brewed, espresso, to specialty drinks both hot and cold - the world has become quite enamored and should I say addicted to the stuff.
+
     
+<!-- Numerous bans have been imposed on Coffee -->
   <h3> Bans throughout history</h3>
+
 <p> Throughout history there has been attempts to ban coffee. though the bans didn't last very long - Here's five:
+
   <table><ol> 1. Mecca in 1511</ol>
+
   <ol> 2. Italy in 16th Century</ol>
+
   <ol> 3. Constantinople in 1623 </ol>
+
   <ol> 4. Sweden in 1746 </ol>
+
   <ol> 5. Prussia in 1777 </ol>
+
 </table>
 
+
+
 <p>
+<!-- Link to page with detail on the numerous bans on Coffee -->
   <a href="https://nationalcoffee.blog/2015/12/15/5-attempts-to-ban-coffee-in-history/" target='_blank' alt='Historical Bans' id="Tribute Link to Historical bans on coffee"> Bans in history Source Site </a> 
+
 </p>
+<!-- Link to page with detail on what chemicals are in Coffee -->
 <p> But what is the <a href="https://en.wikipedia.org/wiki/List_of_coffee_chemicals" alt="Wikipedia list of coffee chemicals" target="_blank" id="Tribute Link to Chemical Composition of coffee">chemical composition </a> that makes up the beverage so many of us just can't do without each and every day? 
+
 </p>
 
+
+
   </main>
+
 </html>
